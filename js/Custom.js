@@ -163,19 +163,4 @@ $(document).ready(function() {
     snowEffectBind();
     showSantaClaus();
     $("#letter").show("drop", {direction: "down"}, "fast");
-
-    $(".message").typed({
-        strings: [
-        "<<< Merry Christmas >>>",
-        "Một mùa giáng sinh an lành và ấm áp",
-        ],
-        typeSpeed: 250,
-        startDelay: 500,
-        backSpeed: 50,
-        backDelay: 500,
-        loop: true,
-        contentType: 'html',
-        showCursor: false
-    });
-
 });
